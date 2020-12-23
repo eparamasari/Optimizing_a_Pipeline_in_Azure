@@ -8,9 +8,9 @@ This model is then compared to an Azure AutoML run.
 ## Summary
 This dataset contains data of direct phone call marketing of a Portuguese banking institution, taken from the University of California, Irvine machine learning repository (link: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.)
 
-We seek to predict whether the customer decided to subscribe or not.
+We seek to predict whether the customer decided to subscribe to the bank's product or not.
 
-The best performing model was one performed by automl, namely Voting Ensemble, with an accuracy of 0.91730.
+After comparing the results of hyperdrive run and automl run, the best performing model was one performed by automl, namely Voting Ensemble, with an accuracy of 0.91730.
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
