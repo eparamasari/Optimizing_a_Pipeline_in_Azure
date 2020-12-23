@@ -14,7 +14,8 @@ After comparing the results of hyperdrive run and automl run, the best performin
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
-The pipeline consists of data import --> data cleaning and one hot encoding --> data split into train and test sets --> setting of parameter sampling --> logistic regression object creation --> model fitting --> model accuracy check --> model registration
+The pipeline consists of data import --> data cleaning and one hot encoding --> data split into train and test sets --> setting of parameter sampling --> logistic regression object creation --> model fitting --> model accuracy check --> model registration.
+Logistic regression was used since it is a good type of model for binary classification.
 
 **What are the benefits of the parameter sampler you chose?**
 The random sampling method creates a sample that should represent the target population and eliminate sampling bias.
