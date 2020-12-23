@@ -50,7 +50,7 @@ Here are some of the things that can be done for future improvement:
 - One might try other classification models for the hyperdrive run. It would be interesting to see how the AutoML run compares to other classification models such as k-Nearest Neighbors or Decision Trees. 
 - One can also try changing the options in the parameter sampler and/or the policy to see how it compares to automl.
 - A warning of possible data imbalance was received. One can use resampling to even the class imbalance, either by up-sampling the smaller classes or down-sampling the larger classes.
-- One can also increase the experiment timeout to 60 minutes or more, to see if the accuracy of the best model can increase with more pipelines iterated. 
+- One can also increase the automl experiment timeout to 60 minutes or more, to see if the accuracy of the best model can increase with more pipelines iterated. 
 
 ## Proof of cluster clean up
 
