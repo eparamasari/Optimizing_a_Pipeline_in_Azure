@@ -49,9 +49,8 @@ The accuracy of the custom-coded model with hyperdrive run was 0.907435508345978
 Here are some of the things that can be done for future improvement:
 - One might try other classification models for the hyperdrive run. It would be interesting to see how the AutoML run compares to other classification models such as k-Nearest Neighbors or Decision Trees. 
 - One can also try changing the options in the parameter sampler and/or the policy to see how it compares to automl, as well changing the parameter sampler itself to Bayesian sampling / grid sampling to see how they compare.
-- A warning of possible data imbalance was received. One can use resampling to even the class imbalance, either by up-sampling the smaller classes or down-sampling the larger classes.
+- A warning of possible data imbalance was received. One can use resampling to even the class imbalance, either by up-sampling the smaller classes or down-sampling the larger classes. Other metrics can also be used here, such as AUC or precision/recall instead of accuracy.
 - One can change the number of cross validations and/or increase experiment timeout for automl to 60 minutes or more, to see if the accuracy of the best model can increase with more pipelines iterated.
-- One can try comparing different metrics, such as AUC or precision/recall instead of accuracy.
 
 ## Proof of cluster clean up
 
